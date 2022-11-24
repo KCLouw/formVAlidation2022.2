@@ -2,4 +2,12 @@ form {
     display: table;
 }
 
-form <
+div {
+    display: table-row;
+}
+
+label, input, select {
+    display: table-cell;
+    margin-left:1rem;
+    margin-bottom: 0.5rem;
+}
