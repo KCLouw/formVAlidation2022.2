@@ -11,3 +11,7 @@ label, input, select {
     margin-left:1rem;
     margin-bottom: 0.5rem;
 }
+
+.submit{
+    align-self: auto;
+}
