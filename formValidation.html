@@ -47,9 +47,28 @@
         </div>
         <div>
             <label for="sex">Sex:</label>
-            <input type="radio" name="sex" id="sex" value="Male">
+            <div>
+                <input type="radio" name="sex" id="sex" value="Male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="sex" value="Female" required>
+                <label for="male">Female</label>
+            </div>
         </div>
+        <div>
+            <label for="language">Language:</label>
+            <div>
+                <input type="checkbox" name="language" id="language" value="english">
+                <label for="english">English</label>
+                <input type="checkbox" name="language" id="language" value="afrikaans">
+                <label for="afrikaans">Afrikaans</label>
+            </div>
+        </div>
+        <div>
+            <label for="about" class="about">About:</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div> 
     </form>
+    <button>Submit</button>
 </body>
 
 </html>
